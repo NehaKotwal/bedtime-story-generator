@@ -6,7 +6,7 @@ Generates quality bedtime stories for children using an LLM judge to ensure stor
 
 ```
 Request → Generate → Judge → [Refine if <7] → Deliver
-                       ↑__________|  (max 1x)
+                       ↑__________|  (max 2x)
 ```
 
 **Components:**

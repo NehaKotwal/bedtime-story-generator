@@ -176,7 +176,7 @@ def apply_user_feedback(story: str, user_feedback: str) -> str:
     return call_llm(messages, temperature=0.7)
 
 
-def create_story(request: str, mood: str = "calm", max_attempts: int = 1, verbose: bool = True) -> tuple[str, StoryEvaluation]:
+def create_story(request: str, mood: str = "calm", max_attempts: int = 2, verbose: bool = True) -> tuple[str, StoryEvaluation]:
     """
     Main pipeline: generate -> judge -> refine loop.
     
